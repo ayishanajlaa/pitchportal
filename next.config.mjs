@@ -1,4 +1,11 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {};
+// next.config.js
 
-export default nextConfig;
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+    images: {
+      domains: ['images.unsplash.com'], // Add other domains as needed
+    },
+  };
+  
+  export default nextConfig;
+  
